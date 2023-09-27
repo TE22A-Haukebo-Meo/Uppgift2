@@ -19,5 +19,14 @@ public class App {
         fält[2] = mid;
         System.out.println(fält[0]+","+fält[1]+","+fält[2]+","+fält[3]);
 
+        System.out.println("Funky word tajm");
+        System.out.println("Gissa ett japanskt bilmärke");
+        String[] wörds = {"Toyota", "Honda", "Mazda"};
+            tb.nextLine();
+        String  ord = tb.nextLine();
+
+        System.out.println(ord+" = "+wörds[0]+" är "+wörds[0].contains(ord));
+        System.out.println(ord+" = "+wörds[1]+" är "+wörds[1].contains(ord));
+        System.out.println(ord+" = "+wörds[2]+" är "+wörds[2].contains(ord));
     }
 }
