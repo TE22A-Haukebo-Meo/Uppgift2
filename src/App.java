@@ -20,7 +20,7 @@ public class App {
         System.out.println(fält[0]+","+fält[1]+","+fält[2]+","+fält[3]);
 
         System.out.println("Funky word tajm");
-        System.out.println("Gissa ett japanskt bilmärke");
+        System.out.println("Gissa ett japanskt bilmärke MED STOR BOKSTAV");
         String[] wörds = {"Toyota", "Honda", "Mazda"};
             tb.nextLine();
         String  ord = tb.nextLine();
