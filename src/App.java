@@ -17,5 +17,7 @@ public class App {
         mid = fält[1];
         fält[1] = fält[2];
         fält[2] = mid;
+        System.out.println(fält[0]+","+fält[1]+","+fält[2]+","+fält[3]);
+
     }
 }
